@@ -1,0 +1,10 @@
+﻿@helper LinkButton(string url, string id, string color, string css, string icon, string text)
+{
+    <a href="@url" id="@id" name="@id" class="btn btn-@color @css"><span class="glyphicon glyphicon-@icon"></span>@text</a>
+}
+
+@helper Button(string typ,string id,string color,string css,string icon,string text)
+{
+    <button type="@typ" id="@id" name="@id" class="btn btn-@color @css"><span class="glyphicon glyphicon-@icon"></span>@text</button>
+}
+

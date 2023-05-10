@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Hakkimizda";
+}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-3">
+            @Html.Partial("_PartialPageKategoriler")
+        </div>
+
+        <div class="col-md-7 col-md-offset-1">
+
+            <div class="row">
+                <h2 class="text-center">Consectetur adipiscing elit fusce vel.</h2>
+                <hr />
+                <img class="slide-image" src="https://picsum.photos/id/60/800/300" alt="" />
+                <p>Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.</p>
+                <p>Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.</p>
+                <p>Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section footer{
+    @Html.Partial("_PartialPageFooter")
+}

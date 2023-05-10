@@ -51,10 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BegeniYonet.cs" />
+    <Compile Include="KategoriYonet.cs" />
+    <Compile Include="KullaniciYonet.cs" />
+    <Compile Include="MakaleBLLSonuc.cs" />
+    <Compile Include="MakaleYonet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MakaleCommon\MakaleCommon.csproj">
+      <Project>{92490bb5-464e-43cd-91d9-fbac490c4baa}</Project>
+      <Name>MakaleCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MakaleDAL\MakaleDAL.csproj">
       <Project>{3831f6b7-b8bc-48f0-80ed-b1570ffee606}</Project>
       <Name>MakaleDAL</Name>

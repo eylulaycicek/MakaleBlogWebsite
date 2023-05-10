@@ -1,0 +1,11 @@
+﻿.validation-summary-errors {
+    border: 2px solid #1aaed4;
+    background-color: darkred;
+    border-radius: 8px;
+}
+
+    .validation-summary-errors ul { /*bunun içindeki ul için listeleme yönteminde yazdığı noktaları kaldırıyoruz*/
+        list-style-type: none;
+        padding: 10px;
+        color: white;
+    }

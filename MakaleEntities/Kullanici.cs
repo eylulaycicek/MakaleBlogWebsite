@@ -25,9 +25,12 @@ namespace MakaleEntities
 
         [Required, StringLength(20)]
         public string Sifre { get; set; }
+
+        [StringLength(30),ScaffoldColumn(false)]
+        public string ProfilResimDosyaAdi { get; set; }
         public bool Aktif { get; set; }
 
-        [Required]
+        [Required,ScaffoldColumn(false)]
         public Guid AktifGuid { get; set; }
         public bool Admin { get; set; }
         public virtual List<Makale> Makaleler { get; set; } 

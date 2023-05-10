@@ -15,6 +15,6 @@ namespace MakaleEntities
         public string Text { get; set; }
 
         public virtual Makale Makale { get; set; }
-        public virtual Kullanici Kullanici { get; set; }
+        public virtual Kullanici Kullanici { get; set; } //birbirine bağlantılı olması için virtual ile bağlantı kuruyoruz
     }
 }
